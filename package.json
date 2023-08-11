@@ -1,0 +1,17 @@
+{
+  "name": "tauri",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "init": "tauri init",
+    "build": "tauri build"
+  },
+  "keywords": [],
+  "author": "bsorrentino <bartolomeo.sorrentino@gmail.com> (http://soulsoftware-bsc.blogspot.it/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.4.0",
+    "lerna": "^7.1.5"
+  }
+}
