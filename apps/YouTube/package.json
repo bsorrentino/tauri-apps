@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tauri build",
+    "clean": "cargo clean --manifest-path src-tauri/Cargo.toml",
     "tauri": "tauri"
   },
   "devDependencies": {
