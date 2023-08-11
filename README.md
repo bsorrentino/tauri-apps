@@ -20,3 +20,10 @@ open `apps/<app name>/package.json` and update scripts as follows:
   * add `url` attribute with the initial url to open on launch:
 
 4. Optionally update the application icon replacing the icon file with yours in `apps/<app name>/src-tauri/icons` folder
+
+5. Build the App
+
+From root folder run 
+```
+npx lerna run clean --scope=<app name>
+```  
