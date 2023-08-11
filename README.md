@@ -27,3 +27,5 @@ From root folder run
 ```
 npx lerna run clean --scope=<app name>
 ```  
+
+[tauri]: https://tauri.app
