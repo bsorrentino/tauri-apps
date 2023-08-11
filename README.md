@@ -18,3 +18,5 @@ open `apps/<app name>/package.json` and update scripts as follows:
   * update `bundle/idenfifier` with an unique name
   * Optionally update `windows/title` with the app display name
   * add `url` attribute with the initial url to open on launch:
+
+4. Optionally update the application icon replacing the icon file with yours in `apps/<app name>/src-tauri/icons` folder
