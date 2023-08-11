@@ -6,11 +6,12 @@
 ```
 npm create tauri-app@latest apps/<app name> --template vanilla
 ```
-2. add `build` script to package.json
+2. add `build` and `clean` scripts to package.json
 open `apps/<app name>/package.json` and update scripts as follows:
 ```json
 "scripts": {
     "build": "tauri build",
+    "clean": "cargo clean --manifest-path src-tauri/Cargo.toml",
     "tauri": "tauri"
   }
 ```
@@ -25,7 +26,7 @@ open `apps/<app name>/package.json` and update scripts as follows:
 
 From root folder run 
 ```
-npx lerna run clean --scope=<app name>
+npx lerna run build --scope=<app name>
 ```  
 
 [tauri]: https://tauri.app
